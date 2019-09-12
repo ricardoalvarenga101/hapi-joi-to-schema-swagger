@@ -1,17 +1,25 @@
 # hapi-joi-to-component-swagger
 
-Biblioteca para gerar os componentes swagger a partir de um validador [@hapi/joi](https://hapi.dev)
+ - Biblioteca para gerar os componentes swagger a partir de um validador [@hapi/joi](https://hapi.dev)
 
+## Conteúdo
 
-# Instalação para um projeto node
+- [Instalação para um projeto node](#Instalação)
+  - [Configuração](#Configuração)
+  - [Configurar script package.json](#package.json)
+- [Utilização](#Utilização)
+- [Dependências](#Dependências)
+
+## Instalação
+  - Para um projeto node
 
 ```
 npm install --save hapi-to-component-swagger
 ```
 
-# Configuração
+## Configuração
 
-Importe a biblioteca em seu projeto e a configure:
+ - Importe a biblioteca em seu projeto e a configure:
 
 ```js
 // generateComponentSwagger.js
@@ -38,7 +46,8 @@ joiToSwagger(config, schemas, commonSchemas)
 
 ```
 
-# Configurar comando no package.json
+## Package.json
+ - Configurar comando no package.json
 
 Podemos também criar um script para ser chamado usando o npm, faça o seguinte no scripts de seu package.json
 
@@ -48,15 +57,15 @@ Podemos também criar um script para ser chamado usando o npm, faça o seguinte 
   },
 ```
 
-# Api documentação
+## Utilização
 
-Função que gera o arquivo com os components swagger e salva no local indicado
+ Função que gera o arquivo com os components swagger e salva no local indicado
 
 ```js
 joiToSwagger(config, schemas, commonSchemas)
 ```
 
-Parametros da função:
+Paramêtros da função:
  
  ```js
 /**
@@ -85,6 +94,6 @@ const commonSchemas = { commonSchema }
 
  ```
 
-# Dependências
+## Dependências
 No momento a lib da suporte apenas a versão 15.0.3 do [@hapi/joi](https://github.com/hapijs/joi/releases/tag/v15.0.3), então, para evitar problemas, fique atento em estar a utilizando em seus projetos.
 

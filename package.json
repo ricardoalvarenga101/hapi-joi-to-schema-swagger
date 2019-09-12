@@ -1,6 +1,6 @@
 {
   "name": "hapi-joi-to-component-swagger",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Lib Library for generating @hapi/joi based swagger components for node",
   "repository": "https://github.com/ricardoalvarenga101/hapi-joi-to-component-swagger",
   "main": "./lib/index.js",
