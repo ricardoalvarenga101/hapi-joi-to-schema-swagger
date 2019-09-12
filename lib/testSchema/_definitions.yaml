@@ -1,0 +1,15 @@
+---
+  components: 
+    schemas: 
+      testSchema: 
+        type: "object"
+        properties: 
+          testId: 
+            type: "number"
+            format: "float"
+      commonSchema: 
+        type: "object"
+        properties: 
+          errorCode: 
+            type: "number"
+            format: "float"
