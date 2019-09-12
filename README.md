@@ -51,7 +51,7 @@ Podemos também criar um script para ser chamado usando o npm, faça o seguinte 
 
 ## Api documentação
 
-Função que gera um arquivo com os schemas swagger e salva no local indicado
+Função que gera o arquivo com os components swagger e salva no local indicado
 
 ```
 joiToSwagger(config, schemas, commonSchemas)
