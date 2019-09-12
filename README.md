@@ -1,4 +1,4 @@
-# hapi-joi-to-component-swagger (v0.0.1)
+# hapi-joi-to-component-swagger
 
 Biblioteca para gerar os componentes swagger a partir de um validador [@hapi/joi][https://hapi.dev]
 
