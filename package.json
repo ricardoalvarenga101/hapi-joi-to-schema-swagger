@@ -1,7 +1,8 @@
 {
   "name": "hapi-joi-to-component-swagger",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Lib Library for generating @hapi/joi based swagger components for node",
+  "repository": "https://github.com/ricardoalvarenga101/hapi-joi-to-component-swagger",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
