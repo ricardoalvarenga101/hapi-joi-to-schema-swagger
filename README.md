@@ -1,4 +1,4 @@
-# hapi-joi-to-component-swagger
+# hapi-joi-to-schema-swagger
 
  - Biblioteca para gerar os componentes swagger a partir de um validador [@hapi/joi](https://hapi.dev)
 
@@ -14,7 +14,7 @@
   - Para um projeto node
 
 ```
-npm install --save hapi-to-component-swagger
+npm install --save hapi-to-schema-swagger
 ```
 
 ## Configuração

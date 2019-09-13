@@ -1,15 +1,14 @@
 {
-  "name": "hapi-joi-to-component-swagger",
-  "version": "0.0.7",
+  "name": "hapi-joi-to-schema-swagger",
+  "version": "0.0.1",
   "description": "Lib Library for generating @hapi/joi based swagger components for node",
   "repository": "https://github.com/ricardoalvarenga101/hapi-joi-to-component-swagger",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "swagger-generator": "node ./lib/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ricardo Santos Alvarenga",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@hapi/joi": "15.0.3",
     "@types/node": "^12.7.5",
