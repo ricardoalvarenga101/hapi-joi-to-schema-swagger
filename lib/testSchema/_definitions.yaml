@@ -3,13 +3,17 @@
     schemas: 
       testSchema: 
         type: "object"
+        required: 
+          - "id"
         properties: 
-          testId: 
-            type: "number"
-            format: "float"
-      commonSchema: 
+          id: 
+            type: "integer"
+      common: 
         type: "object"
+        required: 
+          - "errorCode"
         properties: 
           errorCode: 
-            type: "number"
-            format: "float"
+            type: "integer"
+          message: 
+            type: "string"
