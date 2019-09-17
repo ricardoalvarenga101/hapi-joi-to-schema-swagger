@@ -5,7 +5,7 @@
   "repository": "https://github.com/ricardoalvarenga101/hapi-joi-to-schema-swagger.git",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/mocha/bin/mocha ./test/cases",
     "eslint": "./node_modules/.bin/eslint ./"
   },
   "keywords": [
@@ -26,6 +26,7 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "eslint": "^6.4.0"
+    "eslint": "^6.4.0",
+    "mocha": "^6.2.0"
   }
 }

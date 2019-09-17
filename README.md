@@ -2,6 +2,8 @@
 
  - Biblioteca para gerar os componentes swagger a partir de um validador [@hapi/joi](https://hapi.dev)
 
+[![Build Status](https://travis-ci.org/ricardoalvarenga101/hapi-joi-to-schema-swagger.svg?branch=master)](https://travis-ci.org/ricardoalvarenga101/hapi-joi-to-schema-swagger)
+
 ## Conteúdo
 
 - [Instalação para um projeto node](#Instalação)
