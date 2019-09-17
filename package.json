@@ -2,10 +2,11 @@
   "name": "hapi-joi-to-schema-swagger",
   "version": "0.0.1",
   "description": "Lib Library for generating @hapi/joi based swagger components for node",
-  "repository": "https://github.com/ricardoalvarenga101/hapi-joi-to-component-swagger",
+  "repository": "https://github.com/ricardoalvarenga101/hapi-joi-to-schema-swagger.git",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "./node_modules/.bin/eslint ./"
   },
   "keywords": [
     "schema",
@@ -23,5 +24,8 @@
     "hapi-joi-to-swagger": "^3.2.0",
     "json2yaml": "^1.1.0",
     "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0"
   }
 }
