@@ -22,9 +22,8 @@ const schemas = [
 const commonSchema = { common }
 
 describe('Basic Mocha String Test', function () {
- it('should return number of charachters in a string', function (done) {
-        joiToSwagger(config, schemas, commonSchema)
-        done()
-    });
-
+ it('should return number of charachters in a string', function (done) {             
+    joiToSwagger(config, schemas, commonSchema)
+    done()
+    })
 });
