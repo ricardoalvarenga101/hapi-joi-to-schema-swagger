@@ -4,6 +4,5 @@ node_js:
   - v10
 install:
   - npm i -g npm@latest
-  - npm i
   - npm ci
 script: "npm run eslint && npm run test"
