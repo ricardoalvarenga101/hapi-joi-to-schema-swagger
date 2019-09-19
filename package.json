@@ -19,7 +19,7 @@
   "author": "Ricardo Santos Alvarenga",
   "license": "MIT",
   "dependencies": {
-    "@hapi/joi": "15.0.3",
+    "@hapi/joi": "15.1.1",
     "@types/node": "^12.7.5",
     "hapi-joi-to-swagger": "^3.2.0",
     "json2yaml": "^1.1.0",

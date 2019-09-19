@@ -74,7 +74,7 @@ Paramêtros da função:
  * Configuração para geração do arquivo
  * @param { string } apiPathComponent Caminho onde serão salvos os arquivos
  * @param { string } fileName Nome do arquivo que será gerado
- * @param { object } fileExtension Extensão do arquivo
+ * @param { string } fileExtension Extensão do arquivo
  */
  const config = {
      apiPathComponent,
@@ -96,6 +96,6 @@ const commonSchemas = { commonSchema }
 
  ```
 
-## Dependências
-No momento a lib da suporte apenas a versão 15.0.3 do [@hapi/joi](https://github.com/hapijs/joi/releases/tag/v15.0.3), então, para evitar problemas, fique atento em estar a utilizando em seus projetos.
+
+(No momento a lib da suporte apenas as versões >= 15.0.0 e <= 15.1.1 do [@hapi/joi](https://github.com/hapijs/joi/releases), então, para evitar problemas, fique atento em estar a utilizando em seus projetos.)
 
