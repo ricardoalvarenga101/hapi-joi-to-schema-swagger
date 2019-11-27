@@ -45,6 +45,7 @@ const commonSchemas = { commonSchema }
 
 // Chamamos a função para gerar o arquivo
 joiToSwagger(config, schemas, commonSchemas)
+  .then(()=> done)
 
 ```
 
