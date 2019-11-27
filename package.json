@@ -1,6 +1,6 @@
 {
   "name": "hapi-joi-to-schema-swagger",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Lib Library for generating @hapi/joi based swagger components for node",
   "repository": "https://github.com/ricardoalvarenga101/hapi-joi-to-schema-swagger.git",
   "main": "./lib/index.js",
