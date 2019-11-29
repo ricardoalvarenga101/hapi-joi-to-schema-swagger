@@ -88,7 +88,7 @@ Paramêtros da função:
  * @param { string } folderName Nome da pasta onde o arquivo será salvo
  * @param { object } schemas Objeto com todos os joi schemas referente aquela pasta 
  */
-const schemas = [{ folderName: 'suaPasta', schemas: { seuSchema, seuSchema2, ...espalharMaisUmMonte }}]
+const schemas = [{ folderName: 'youtFolder', schemas: { yourSchema, yourSchema2, ...destructManyAllSchema }}]
 
 /**
  * Objeto contendo os schemas padrões que apareceram em todos os arquivos gerado 
